@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuessingNmuberGame</title>
+    <style>
+        *{
+            margin: 15px;
+            
+        }
+        
+        body{
+            background-image: url("image4.jpg");
+            
+            
+        }
+        h1,p,p{
+            text-align: center;
+            padding: 25px,35px;
+        }
+        input{
+            display: block;
+            margin: auto;
+            padding: 10px;
+            border-radius: 6px;
+            
+        }
+         
+
+
+
+    </style>
+</head>
+<body style="color: "  >
+
+    <div id="wrapper">
+        <h1>Number Gussing Game</h1>
+        <p>Try and guess a random number between 1 and 100.</p>
+        <p>You have 10 attempts to guess the right Number.</p>
+
+        <form id="from">
+            <label for="guessfield" id="gess" ><h1>Guess a Number </h1><br></label>
+            
+            <input type="text" id="guessfield" class="guessfield" style="background-color: whitesmoke" >
+            <br>
+            <input type="submit" id="submitdata" value="submit" style="background-color: whitesmoke">
+        </div>
+        </form>
+
+        <div class="resultParasInt">
+            <p><b>Preivous Guesses:</b><span class="guesse"></span></p>
+            <p><b>Remaing Guesses:</b><span class="lastresult">10</span></p>
+            <p class="Highertolower"></p>
+        </div>
+    </div>
+    
+    
+</body>
+<script src= GuessingNmuberGame.js></script>
+</html>
