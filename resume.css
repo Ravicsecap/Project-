@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aquamarine;
+
+}
+
+
+
+
+.container{
+    width: 70%;
+    display: flex;
+    gap: 10px;
+    margin-inline: auto ;
+    
+    
+}
+
+.card{
+    
+    box-shadow: 4px 4px 4px  black;
+    margin-bottom: 10px;
+}
+
+.left-box{
+
+    width: 30%;
+}
+
+.right-box {
+
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.image-box img{
+    width: 200px;
+    position: relative;
+    border-radius: 6px;
+    padding-bottom: 0;
+
+}
+p strong{
+    position: absolute;
+    top: 230px;
+    left: 239px;
+    color: white ;
+
+
+    
+}
+
+.icon-text{
+    display: flex;
+    gap: 10px;
+}
+
+p, a, .project, a , h4{
+    color: black;
+    text-decoration: none;
+}
+
+.Contact-Discripation, ul, .skills, ul, li{
+    list-style-type: none;
+}
+
+ .progress-bar{ 
+    width: 65%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.progress {
+    background-color:aliceblue;
+    border-radius: 10px;
+     text-align: center ;
+}
+
+.project i,.education i   {
+    color: rgba(22, 8, 213, 0.5);
+}
+
+
+
+.education h3{
+    color: black;
+
+}
+
+.game{
+    width: 50% ;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    
+}
+
+.game div{
+    border: 2px solid black ;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 1px 1px;
+}
+
+
+.leftbox-margin{
+    margin-block: 10px;
+}
+
+.rightbox-margin{
+    margin-block: 10px;
+}
+
+
+
+
